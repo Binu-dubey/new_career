@@ -1,0 +1,67 @@
+/* src/styles/components.css */
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .header nav ul li {
+    margin: 0;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Question component styles */
+  .question {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    margin-bottom: 10px;
+  }
+  
+  .question div {
+    margin-bottom: 5px;
+  }
+  
+  /* Result Summary styles */
+  .result-summary {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
